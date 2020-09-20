@@ -8,6 +8,8 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 import 'bootstrap';
+import { initUpdateNavbarOnScroll } from '../components/navbar';
+import { loadDynamicBannerText   } from '../components/banner';
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -18,3 +20,9 @@ import 'bootstrap';
 // const imagePath = (name) => images(name, true)
 
 console.log("Hello from app/javascript/packs/application.js!");
+
+document.addEventListener('turbolinks:load', () => {
+  // Call your JS functions here
+  initUpdateNavbarOnScroll();
+  loadDynamicBannerText();
+});

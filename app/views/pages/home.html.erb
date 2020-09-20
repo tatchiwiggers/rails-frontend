@@ -1,18 +1,18 @@
-<div class = "navbar-lewagon">
-<div class="logo"></div>
+<%# <div class = "navbar-lewagon"> %>
+<%# <div class="logo"></div> %>
   <%#= image_tag "logo.png", alt: "Le Wagon Logo", class: "logo img-logo" %>
 
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <%# <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
     <div class="container">
       <h1>Le Wagon brings <strong>tech skills</strong> to <strong>creative people</strong>!</h1>
       <p>Change your life and learn to code at one of our campuses around the world.</p>
       <a class="btn btn-primary" href="#">Apply now</a>  
     </div>
   </div>
-</div>
+</div> %>
 
 
-<div class="container mt-3">
+<%# <div class="container mt-3">
   <div class="card" style="width: 18rem;">
     <img src="https://kitt.lewagon.com/placeholder/cities/random" class="card-img-top" alt="...">
     <div class="card-body">
@@ -20,9 +20,9 @@
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
-  </div>
+  </div> %>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+  <%# <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
     Breakfast
   </div>
 
@@ -30,25 +30,71 @@
 <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
     Launch demo modal
-  </button>
+  </button> %>
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <%# <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
+          </button> %>
+        <%# </div>
         <div class="modal-body">
           Motherfucker you did it!!
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%# <button type="button" class="btn btn-primary">Save changes</button> %>
-        </div>
+        <%# </div>
+      </div>
+    </div>
+  </div>
+</div> %>
+
+<div class="home-banner">
+  <h1>Le Wagon</h1>
+  <p>
+    <span id="banner-typed-text"></span>
+  </p>
+</div>
+<div class="container">
+  <div class="row justify-content-center mt-3">
+    <div class="col-6">
+      <h2 class="title mb-4">"One Art" By Elizabeth Bishop</h2>
+        <div class="row justify-content-center p-3">
+        <%= "
+          The art of losing isn’t hard to master;
+          so many things seem filled with the intent
+          to be lost that their loss is no disaster.
+
+          Lose something every day. Accept the fluster
+          of lost door keys, the hour badly spent.
+          The art of losing isn’t hard to master.
+
+          Then practice losing farther, losing faster:
+          places, and names, and where it was you meant
+          to travel. None of these will bring disaster.
+
+          I lost my mother’s watch. And look! my last, or
+          next-to-last, of three loved houses went.
+          The art of losing isn’t hard to master.
+
+          I lost two cities, lovely ones. And, vaster,
+          some realms I owned, two rivers, a continent.
+          I miss them, but it wasn’t a disaster.
+
+          —Even losing you (the joking voice, a gesture
+          I love) I shan’t have lied. It’s evident
+          the art of losing’s not too hard to master
+          though it may look like (Write it!) like disaster.
+
+          Elizabeth Bishop, “One Art” from The Complete Poems 1926-1979. Copyright © 1979, 1983 by Alice Helen Methfessel. Used by permission of Farrar, Straus & Giroux, LLC, http://us.macmillan.com/fsg. All rights reserved.
+
+          Caution: Users are warned that this work is protected under copyright laws and downloading is strictly prohibited. The right to reproduce or transfer the work via any medium must be secured with Farrar, Straus and Giroux, LLC.
+          Source: The Complete Poems 1926-1979 (Farrar, Straus and Giroux, 1983) " %>
       </div>
     </div>
   </div>
