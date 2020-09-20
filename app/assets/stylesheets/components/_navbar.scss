@@ -4,6 +4,9 @@
   background-color: transparent;
   transition: 0.5s background-color ease;
   position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 2; // gets in front of everything
 }
 
 .navbar-lewagon-white {
