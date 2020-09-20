@@ -60,3 +60,8 @@ using image tag: <%= image_tag "source", alt: "alttext" %>
 ## REMEMBER TO BOOTSTRAP JS ##
 yarn add bootstrap
 yarn add popper.js jquery
+
+## ORGANZNING JS CODE ##
+GENERAL RULES
+Implement function in separate files. export them
+import function in the pack and use it.
