@@ -49,3 +49,14 @@ To enable Bootstrap responsiveness:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 </head  > -->
+
+## IMAGES ##
+
+Download an image:
+- save to images folder;
+- adding a logo:
+using image tag: <%= image_tag "source", alt: "alttext" %>
+
+## REMEMBER TO BOOTSTRAP JS ##
+yarn add bootstrap
+yarn add popper.js jquery
